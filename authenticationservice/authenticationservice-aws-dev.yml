@@ -8,9 +8,3 @@ spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 signing.key: "345345fsdfsf5345"
-
-travis encrypt "DOCKER_USERNAME=pehulja" -r pehulja/spmia-chapter10 --add env.global
-travis encrypt "AWS_ACCESS_KEY=AKIAI6Q7F2AWPOBTS3DQ" -r pehulja/spmia-chapter10 --add env.global
-travis encrypt "DOCKER_PASSWORD=Xig2eogh" -r pehulja/spmia-chapter10 --add env.global
-travis encrypt "GITHUB_TOKEN=1771a2a2df34cd9eaf02e42793eb0d9c19ed7000" -r pehulja/spmia-chapter10 --add env.global
-travis encrypt "AWS_SECRET_KEY=iQ+PvYuG26Kzglw+cBQJ1dSfLzgihuXqC8bo6zjj" -r pehulja/spmia-chapter10 --add env.global
